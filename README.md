@@ -50,7 +50,7 @@ mysqlnd
 libcurl
 🚀 Cara Instalasi
 1. Clone Repository
-git clone https://github.com/RakaAprianto/library-management-smpn57bandung.git
+git clone https://github.com/lutpayway/perpustakaansmpn57bandung
 cd library-management-smpn57bandung
 2. Install Dependencies
 composer install
@@ -107,24 +107,7 @@ Username: (sesuai yang didaftarkan)
 Password: (sesuai yang didaftarkan)
 ⚠️ Penting: Segera ubah password default setelah login pertama kali!
 
-📁 Struktur Folder
-perpustakaan_smp57bandung/
-├── app/
-│   ├── Config/          # File konfigurasi
-│   ├── Controllers/     # Controller
-│   ├── Models/          # Model database
-│   ├── Views/           # Tampilan
-│   └── Filters/         # Filter autentikasi
-├── public/
-│   ├── AdminLTE/        # Template AdminLTE
-│   ├── cover/           # Cover buku
-│   ├── ebooks/          # File e-book
-│   ├── foto/            # Foto anggota
-│   ├── logo/            # Logo sistem
-│   └── slider/          # Gambar slider
-├── writable/            # Folder untuk cache & logs
-├── vendor/              # Dependencies
-└── .env                 # Konfigurasi environment
+
 🔒 Keamanan
 File .env sudah di-exclude dari Git untuk keamanan kredensial
 Gunakan HTTPS untuk production
